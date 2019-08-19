@@ -18,83 +18,23 @@
 		width:100%;
 	overflow:hidden;
 }
-.revolver{
-	position:absolute;
-	z-index:49;
-	width:100%;
-	height:110px;
-	overflow:hidden;
-}
-.containers{
- position:absolute;
-  z-index:50;
-  width:100px;
-		 background-image:url("https://i.pinimg.com/originals/35/38/ed/3538edbdb531c7fe3bb387ead4b398b0.png");
-	  background-size:100px 100px;
-	  background-repeat:no-repeat;
-  height:100px;
-  animation:moneytime 6s linear 1s infinite;
-  -webkit-animation: moneytime 6s linear 1s infinite;/* Safari 4.0 - 8.0 */
-}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes moneytime{
-  from{
-    right:52%;
-    
-  }
-  to{
-    right:110%;
-   
-  }
-}
-@keyframes moneytime{
-  from{
-    right:52%;
-    
-  }
-  to{
-    right:110%;
-  }
-		  }
-.coverphoto{
-	background-image:url("https://i.pinimg.com/originals/52/83/fc/5283fcaf7ea8b04624111280bb3592e9.gif");
-	background-size:cover;
-	background-repeat:no-repeat;
-	border-style:outset;
-	height:500px;
-		width:750px;
-	opacity:.7;
-	background-size:750px 500px;
-}
-.slide{
-  width: 230px;
-  height: 350px;
-  overflow:hidden;
-  padding:0;
-  margin: 30px auto;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  -o-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
-}
-.slide place{
-  display:block;
-  width:0;
-  float:left;
-  -webkit-transition: all 0.75s;
-  -moz-transition: all 0.75s;
-  transition: all 0.75s;
-}
+
+
+
+
+
 #left-sidebar{
   float:left;
   width:430px;
 	padding-top:5px;
-	
+	overflow:scroll;
+  height:1100px
 }
 #right-sidebar{
   float:right;
   width:401px;
-	
+	overflow:scroll;
+  height:1100px
 }
 
 .membershiparea{
@@ -107,7 +47,7 @@ width:360px;
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/564x/f7/6a/47/f76a47246b3c49ed6bf8a5aa4a1a7936.jpg');
+  background-image:url('');
   background-size:400px 210px;
 	}
 .health3{
@@ -115,7 +55,7 @@ width:360px;
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/originals/ea/92/80/ea9280576b225178b7bb1215246bfee9.gif');
+  background-image:url('');
   background-size:400px 210px;
 	}
 .products4{
@@ -123,7 +63,7 @@ width:360px;
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/564x/5d/76/a0/5d76a093d187b1c899466faaff1a4dae.jpg');
+  background-image:url('');
   background-size:400px 210px;
 	}
 .border5{
@@ -157,21 +97,14 @@ h9{
 }
 
 
-.clothed{
-		   height:550px;
-		   width:600px;
-		   background-image:url('https://i.pinimg.com/originals/a7/a5/96/a7a59632f36880d78e0940112f341a1f.jpg');
-		   background-size:600px 550px;
-		   background-repeat:no-repeat;
-                   padding-bottom:25%;
-}
+
 .withlove{
 	width:100%;
 	height:150px;
 }
 .loverboy{
 	border-style:outset;
-	background-image:url('https://i.pinimg.com/originals/4d/de/f1/4ddef18732b35ebab7372e1fbb01b8ce.gif');
+	background-image:url('');
 	height:210px;
 	width:400;
 	background-size:400px 210px;
@@ -179,7 +112,7 @@ h9{
 }
 .stocks2{
 	border-style:outset;
-	background-image:url('https://i.pinimg.com/564x/f7/1f/1d/f71f1d090a986b39d18a34ee0f491261.jpg');
+	background-image:url('');
         height:210px;
 	width:400;
 	background-size:400px 210px;
@@ -187,48 +120,11 @@ h9{
 }
 .realestate{
 	border-style:outset;
-	background-image:url('https://i.pinimg.com/564x/ea/d2/09/ead20906331d848bed98634079004196.jpg');
+	background-image:url('');
 	height:210px;
 	width:400;
 	background-size:400px 210px;
 	background-repeat:no-repeat;
-}
-.neon
-{
-  position:absolute;
-  top:10%;
-  left:35%;
-	translate:transform (-50%,-50%);
-	margin:0;
-	padding:0 20px;
-	font-size:6em;
-	color:#34ccff;
-	text-shadow:0 0 20px;
-}
-
-
-.neon:after
-{
-	top:0;
-	left:0;
-	content:attr(data-text);
-	position:absolute;
-	padding:0 0 20px;
-	z-index:-1;
-	color:#34ccff;
-	filter:blur(15px);
-}
-
-.neon:before
-{
-	content:" ";
-	top:0;
-	left:0;
-	position:absolute;
-	background:#34ccff;
-	z-index:-3;
-	opacity:.5;
-	filter:blur(40px);
 }
 
  .thorshammer{		  
@@ -250,17 +146,20 @@ body{
 	float:left;
 	 
            }
-
+             .crazy{
+               background-image:url('https://i.pinimg.com/originals/89/4e/86/894e86be7e4dc570ace6db23b78a6fd5.png');
+	height:100px;
+	width:200px;
+	background-size:200px 100px;
+	background-repeat:no-repeat;
+             }
 
 </style></script>
 	</header>       
  
    <head>
-	  
-           <div class="revolver">
-          <div class ="containers">	<h7 class="neon" data-text="DIAMONDROLL$">DIAMONDROLL$</h7></div>     
-        
-       </div>
+	<ahref="bit.ly/noorauto/"><div class="crazy"></div></a>
+          
          </head>
          
 <body> 
@@ -272,15 +171,8 @@ body{
 </center>
           <!-- end www.htmlcommentbox.com -->
      </div>
-	<center> <div class="coverphoto"><h2>welcome </h2></div> </center>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	
+
 	<br>
 	<br>
 	<br>
@@ -300,7 +192,7 @@ body{
 
  <div id="right-sidebar">
 			
-      
+      <button>SUV</button>
 	       <a href='https://diamondrolls.github.io/stocks/'><div class="stocks2"><h2>Stocks</h2>  </div></a>
                <br>
 	       <br>
@@ -313,6 +205,7 @@ body{
 	     
 		
 			<div id= "left-sidebar">
+        <button>Truck</button>
 	        <a href='https://diamondrolls.github.io/fitness/'><div class='health3'><h2>Love & Fitness</h2></div></a>
 		<br>
                 <br>
@@ -337,37 +230,11 @@ body{
 	<div class="withlove">
 	</div>
 <center>
-              <div class="clothed"> 
-		    	   
-		      
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="P4Y595PKJUB4G">
-<table>
-<tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-	<option value="new releases">new releases : $8.00 USD - monthly</option>
-	<option value="news letters">news letters : $360.00 USD - monthly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
-
-
-		    <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=UAGYHTHA6PUVJ">
-<IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_SM.gif" BORDER="0">
-</A>
-			   
+      
 
 			    
-	      </div></center>
-	<button>Ready to dominate your finances and health? 
-				    Sign up for our bosses plan &
-				    get a free Ipad or Apple Watch!!
-				    Because WE DOMINATE!!!</button>
+	    
+	
 	<br>
 	<br>
 	<br>
@@ -390,4 +257,4 @@ body{
          </footer>
               </html>
 
-                
+                         
